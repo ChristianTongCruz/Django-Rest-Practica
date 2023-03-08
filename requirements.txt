@@ -2,6 +2,7 @@
 Django
 djangorestframework
 djangorestframework-simplejwt
+dj-database-url
 drf-extensions
 drf-spectacular
 gunicorn
