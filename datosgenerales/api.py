@@ -13,5 +13,5 @@ from .models import DatosGenerales
 )
 class DatosGeneralesViewSet(viewsets.ModelViewSet):
     queryset = DatosGenerales.objects.all()
-    permission_classes = [permissions.IsAuthenticated]
+    permission_classes = [permissions.AllowAny]
     serializer_class = DatosGeneralesSerializer
